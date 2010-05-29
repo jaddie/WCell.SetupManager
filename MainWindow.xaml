@@ -1,8 +1,9 @@
-﻿<Window x:Class="WCellInitialSetupManager.MainWindow"
+﻿<Window x:Class="WCell.SetupManager.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="136" Width="121">
     <Grid>
-        
+        <Button Content="Import Database" Height="23" HorizontalAlignment="Left" Margin="0,12,0,0" Name="BtnImportDatabase" VerticalAlignment="Top" Width="99" />
+        <Button Content="Import DBC" Height="23" HorizontalAlignment="Left" Margin="0,53,0,0" Name="button2" VerticalAlignment="Top" Width="99" />
     </Grid>
 </Window>
