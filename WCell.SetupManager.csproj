@@ -46,8 +46,11 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WCell.DatabaseImportSystem">
+      <HintPath>Dependencies\WCell.DatabaseImportSystem.dll</HintPath>
+    </Reference>
     <Reference Include="WCell.MPQTool">
-      <HintPath>Dependancies\WCell.MPQTool.dll</HintPath>
+      <HintPath>Dependencies\WCell.MPQTool.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
